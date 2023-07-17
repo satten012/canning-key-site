@@ -8,7 +8,6 @@
   -webkit-tap-highlight-color: transparent;
   position: relative
 }
-
 .owl-carousel {
   display: none;
   width: 100%;
@@ -768,7 +767,7 @@ section .image {
   opacity: 0
 }
 .description_section {
-  padding: 30px 0 15px
+  padding: 30px 0 0px
 }
 .description_section h2.title {
   text-align: center;
@@ -968,4 +967,116 @@ div.h4 {
 .button_2{
   margin-top: 35px !important;
   margin-bottom: 35px;
+}
+
+.swiper-slide {
+  height: 300px;
+}
+
+.swiper-slide > div:nth-child(1) {
+  padding-left: 50px;
+  margin-bottom: 25px;
+}
+.swiper-slide > div:nth-child(1) > div {
+  margin-bottom: 3px;
+}
+
+.swiper-slide > div:nth-child(1) > div:nth-child(1) {
+  font-weight: 700;
+}
+
+.swiper-slide > div:nth-child(2) {
+  padding: 0 50px;
+}
+
+.info_block{
+  margin-top: 15px;
+}
+
+.marginClass{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (change to 75% for 4:3 videos) */
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main_wrapperGratitude{
+  margin: auto;
+}
+
+.main_wrapperGratitude > div {
+  width: 90%;
+  margin: auto;
+}
+
+.main_wrapperGratitude > div:nth-child(1){
+  font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 44px;
+    color: #01539c;
+
+}
+
+.main_wrapperGratitude > div:nth-child(2){
+  text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
+  letter-spacing: 0.1rem;
+  line-height: 35px;
+}
+
+.main_wrapperGratitude > div:nth-child(3) > div:nth-child(1){
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #01539c;
+}
+
+.main_wrapperGratitude > div:nth-child(3)> div:nth-child(2){
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 21px;
+  color: black;
+  line-height: 27px;
+}
+
+footer{
+  margin-top: 90px;
+  background-color: #01539c;
+  color: white;
+  padding: 40px 0;
+}
+
+footer >div{
+  width: 90%;
+  margin: auto;
+}
+
+footer > div:nth-child(odd){
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+footer>div > a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.542);
+  cursor: pointer;
+  font-style: italic;
 }
